@@ -18,9 +18,7 @@ var miQue = [" mi tarea ", " mi sandwich ", " mi comida ", " mi cama "];
 var donde = [" el supermercado", " la plaza ", " la playa ", " la montaña"];
 
 function ran(arr) {
-  var r = Math.random() * arr.length;
-  console.log(r);
-  return Math.floor(r);
+  return Math.floor(Math.random() * arr.length);
 }
 
 window.onload = function() {
